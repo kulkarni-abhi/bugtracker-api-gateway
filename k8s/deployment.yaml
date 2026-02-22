@@ -14,6 +14,7 @@ spec:
     spec:
       containers:
         - name: api-gateway
-          image: api-gateway:latest
+          image: ghcr.io/kulkarni-abhi/bugtracker-api-gateway:dev-d6308312ff5a86e9e58f554366bfa23917b80896
+          imagePullPolicy: Always
           ports:
             - containerPort: 8080
